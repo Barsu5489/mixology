@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "json server",
+      "email": "joe@123.com",
+      "password": 123
+    },
+    {
+      "id": 2,
+      "name": "jhon cena",
+      "email": "jhon@123.com",
+      "password": 321
+    },
+    {
+      "name": "Kenyan",
+      "email": "kenyan@123",
+      "password": "1234567890",
+      "gender": "male",
+      "id": 3
+    },
+    {
+      "name": "Kenyan",
+      "email": "kenyan@123",
+      "password": "1234567890",
+      "gender": "male",
+      "id": 4
+    },
+    {
+      "name": "Kenyan",
+      "email": "kenyan@123",
+      "password": "1234567890",
+      "gender": "male",
+      "id": 5
+    },
+    {
+      "name": "Man",
+      "email": "man@man.com",
+      "password": "54321",
+      "gender": "male",
+      "id": 6
+    }
+  ]
+}
