@@ -9,7 +9,7 @@ const [err, setApprove] = useState()
 const navigate = useNavigate()
     let userDetails = {email,password}
 useEffect(()=>{
-    fetch('http://localhost:3000/users')
+    fetch('http://localhost:8000/users')
     .then((res)=>res.json())
     .then((credential)=>{
         console.log(credential)

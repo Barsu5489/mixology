@@ -4,7 +4,8 @@ import './App.css';
 import Home from './Home';
 import Login from './Login';
 import Signup from './Signup';
-
+import Post from './Post';
+import NewPost from './NewPost';
 
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
   
    <BrowserRouter>
    <Routes>
+    {/* <Route path='/post' element={<Post/>}/> */}
+    <Route path='/newPost' element={<NewPost />}></Route>
     <Route path='/' element={<Home/>}/>
     <Route path='/login' element={<Login/>}/>
     <Route path='/signup' element={<Signup/>}/>
