@@ -6,7 +6,7 @@ const [content, setContent] = useState('')
 const [imageUrl, setImage] = useState(null)
 const createdFeed = {title,content,imageUrl}
     function handleSubmit(e){
-        e.preventDefault()
+        
         console.log(createdFeed)
 console.log('works')
 fetch('http://localhost:8000/posts',{
@@ -37,6 +37,7 @@ fetch('http://localhost:8000/posts',{
     //     reader.readAsDataURL(file)
     //   }
   return (
+
     <div>
         <form action="" onSubmit={handleSubmit}>
         <div className="form-group">

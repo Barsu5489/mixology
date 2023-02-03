@@ -20,7 +20,7 @@ console.log(posts)
 
 const feeds = posts.map((post)=>{
   return(
-    <div className='card m-4' style={{maxWidth: '540px'}} key ={post.id}> 
+    <div className='card m-4' style={{maxWidth: '540px'}} key ={post.id}  onClick={()=>console.log(post)}> 
     <div className="row g-0">
       <div className="col-md-4">
         <img src={post.imageUrl} className="img-fluid rounded-start" alt="..."/>
@@ -42,8 +42,8 @@ const feeds = posts.map((post)=>{
     {showNew ?(
       <NewPost fetchData={fetchData}/>
     ):(
-    <div className='container d-flex align-items-center  justify-content-center' key={feeds.id}>
-    <div className="card mb-3" >
+    <div className='container d-flex align-items-center  justify-content-center'>
+    <div className="card mb-3">
      
     {feeds} 
     </div>
